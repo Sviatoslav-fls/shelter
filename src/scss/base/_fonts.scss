@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Arial';
+  src: url('../assets/fonts/Arial/Arial-ItalicMT.eot');
+  src: url('../assets/fonts/Arial/Arial-ItalicMT.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Arial/Arial-ItalicMT.woff2') format('woff2'),
+      url('../assets/fonts/Arial/Arial-ItalicMT.woff') format('woff'),
+      url('../assets/fonts/Arial/Arial-ItalicMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../assets/fonts/Arial/ArialMT.eot');
+  src: url('../assets/fonts/Arial/ArialMT.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Arial/ArialMT.woff2') format('woff2'),
+      url('../assets/fonts/Arial/ArialMT.woff') format('woff'),
+      url('../assets/fonts/Arial/ArialMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../assets/fonts/Georgia/Georgia-Bold.eot');
+  src: url('../assets/fonts/Georgia/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Georgia/Georgia-Bold.woff2') format('woff2'),
+      url('../assets/fonts/Georgia/Georgia-Bold.woff') format('woff'),
+      url('../assets/fonts/Georgia/Georgia-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../assets/fonts/Georgia/Georgia-Italic.eot');
+  src: url('../assets/fonts/Georgia/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Georgia/Georgia-Italic.woff2') format('woff2'),
+      url('../assets/fonts/Georgia/Georgia-Italic.woff') format('woff'),
+      url('../assets/fonts/Georgia/Georgia-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../assets/fonts/Georgia/Georgia.eot');
+  src: url('../assets/fonts/Georgia/Georgia.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Georgia/Georgia.woff2') format('woff2'),
+      url('../assets/fonts/Georgia/Georgia.woff') format('woff'),
+      url('../assets/fonts/Georgia/Georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../assets/fonts/icons-font/icons.ttf?90dh49') format('truetype'),
+    url('../assets/fonts/icons-font/icons.woff?90dh49') format('woff'),
+    url('../assets/fonts/icons-font/icons.svg?90dh49#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow-left:before {
+  content: "\e900";
+}
+._icon-arrow-right:before {
+  content: "\e901";
+}
+._icon-bowls-and-cups:before {
+  content: "\e902";
+}
+._icon-close:before {
+  content: "\e903";
+}
+._icon-collars-leashes:before {
+  content: "\e904";
+}
+._icon-credit-card:before {
+  content: "\e905";
+}
+._icon-left-left:before {
+  content: "\e906";
+}
+._icon-left:before {
+  content: "\e907";
+}
+._icon-mail:before {
+  content: "\e908";
+}
+._icon-medicines:before {
+  content: "\e909";
+}
+._icon-pet-food:before {
+  content: "\e90a";
+}
+._icon-phone:before {
+  content: "\e90b";
+}
+._icon-pin:before {
+  content: "\e90c";
+}
+._icon-right-right:before {
+  content: "\e90d";
+}
+._icon-right:before {
+  content: "\e90e";
+}
+._icon-shampoos:before {
+  content: "\e90f";
+}
+._icon-sleeping-area:before {
+  content: "\e910";
+}
+._icon-toys:before {
+  content: "\e911";
+}
+._icon-transportation:before {
+  content: "\e912";
+}
+._icon-vitamins:before {
+  content: "\e913";
+}
