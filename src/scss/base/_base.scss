@@ -26,12 +26,23 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding: 80px 0 100px 0;
+  &_dark {
+    background-color: $color-section;
+  }
+}
+
 .title {
   max-width:400px;
   font-size: $font-title;
   color: $color-dark-title;
   line-height: 130%;
   letter-spacing: 0.06em;
+  &_centre{
+    text-align:center;
+    margin: 0 auto;
+  }
 }
 
 .btn {
