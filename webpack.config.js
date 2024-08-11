@@ -61,11 +61,11 @@ module.exports = ({ develop }) => ({
       filename: '[name].[contenthash].css',
       // filename: 'styles.css',
     }),
-    // new CopyPlugin({
-    //   patterns: [
-    //     { from: 'public' },
-    //   ],
-    // }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'public' },
+      ],
+    }),
     new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
   ],
   ...devServer(develop),

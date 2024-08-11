@@ -26,3 +26,21 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  height: 52px;
+  padding: 0px 45px;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border-radius: 100px;
+  @extend %transition;
+  &:hover {
+    background: $color-primary-light;
+  }
+  &_dark {
+    background: darken($color-primary,3);
+  }
+}
+
