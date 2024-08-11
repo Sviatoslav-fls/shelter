@@ -26,6 +26,14 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  max-width:400px;
+  font-size: $font-title;
+  color: $color-dark-title;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
